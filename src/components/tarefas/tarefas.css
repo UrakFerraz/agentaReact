@@ -1,0 +1,41 @@
+
+  .tarefas {
+    display: grid;
+    grid-gap: 8px
+}
+
+.tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    background-color: var(--tarefasBG);
+    padding: 0 16px;
+    font-size: 14px;
+    color: var(--c2);
+    border-radius: 2px;
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.tarefas li:hover {
+    background-color: var(--hoverTarefa);
+}
+
+.deleteBtn img {
+    height: 16px;
+    width: auto;
+    pointer-events: none;
+}
+
+
+.deleteBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.deleteBtn:hover {
+    filter: saturate(0.8);
+}
+

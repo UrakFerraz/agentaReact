@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --shadow: 0 1px 4px rgba(0,0,0,.25);
+  --c1: #303030;
+  --c2: #606060;
+  --c3: #909090;
+  --green: #40D9B8;
+  --tarefasBG: #f2f2f2;
+  --dash: #CCCCCC;
+  --hoverTarefa: #f5f5f5;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+input {
+	display:block;
+	box-sizing: border-box;
+	position:relative;
+	border: none;
+	width: 100%;
+  outline: none;
+  padding: 0 16px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+	cursor: pointer;
+	border: none;
+  outline: none;
+}
+
+
+input[type=submit] {
+  
+  border: 0;
+  display: block;
+  height: _the_image_height;
+  width: _the_image_width;
+}
+
+span, li, input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+::placeholder {
+	color: var(--c3);
+	font-size: 16px;
+}
+
+div {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+
+ul {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}

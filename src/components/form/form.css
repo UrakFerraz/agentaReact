@@ -1,0 +1,41 @@
+
+
+input {
+    box-shadow: var(--shadow);
+    outline: none;
+    background-color: #fff;
+    border-radius: 2px;
+    color: var(--c1);
+    display: block;
+    box-sizing: border-box;
+    min-height: 48px;
+}
+
+
+#submitBtn {
+    border-radius: 50%;
+    background-color: var(--green);
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+#submitBtn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  form {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-gap: 16px;
+      align-items: start;
+  }
